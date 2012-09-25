@@ -1,0 +1,36 @@
+build
+log/*
+
+# https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# https://github.com/github/gitignore/blob/master/Global/TextMate.gitignore
+*.tmproj
+*.tmproject
+tmtags
+
+# https://github.com/github/gitignore/blob/master/Global/SASS.gitignore
+*.sass-cache
+
+# https://github.com/github/gitignore/blob/master/Ruby.gitignore
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
